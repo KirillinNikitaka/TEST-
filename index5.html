@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="vopros1">
+			<div class="px=3 py=3 border">1 вопрос: На столе 70 листов бумаги.
+За каждые 10 секунд можно посчитать 10 листов.
+Сколько секунд понадобится, чтобы отсчитать 50 листов?</div>
+			<div class="px=3 py=3 border otvet1">20</div>
+			<div class="px=3 py=3 border otvet2">50</div>
+			<div class="px=3 py=3 border otvet3">70</div>
+	</div>
+		
+
+		<div class="vopros2" style="display: none;">
+			<div class="px=3 py=3 border">2 вопрос: Когда всё видишь, то её не видишь,
+А когда ничего не видишь, то её видишь.</div>
+			<div class="px=3 py=3 border otvet4">Чернота</div>
+			<div class="px=3 py=3 border otvet5">Темнота</div>
+			<div class="px=3 py=3 border otvet6">Тьма</div>
+	   </div>
+
+		<div class="vopros3" style="display: none;">
+			<div class="px=3 py=3 border">3 вопрос: Один брат — ест и голодает, а другой — идёт и пропадает.</div>
+			<div class="px=3 py=3 border otvet7">Огонь и дым</div>
+			<div class="px=3 py=3 border otvet8">Огонь и пар</div>
+			<div class="px=3 py=3 border otvet9">Огонь и пепел</div>
+		</div>
+
+		<div class="vopros4" style="display: none;">
+			<div class="px=3 py=3 border">4 вопрос: Все меня топчут, а я — всё лучше. </div>
+			<div class="px=3 py=3 border otvet10">Российские дороги</div>
+			<div class="px=3 py=3 border otvet11">Дорога</div>
+			<div class="px=3 py=3 border otvet12">Тропинка</div>
+		</div>
+
+
+		
+		<div class="vopros5" style="display: none;">
+			<div class="px=3 py=3 border">5 вопрос: Дороги имеются — ехать нельзя,
+земля есть — пахать нельзя,
+луга есть — косить нельзя,
+в реках, морях воды нет.
+Что это? </div>
+			<div class="px=3 py=3 border otvet13">Карта</div>
+			<div class="px=3 py=3 border otvet14">Географическая карта</div>
+			<div class="px=3 py=3 border otvet15">География</div>
+		</div>
+
+
+		<div class="vopros6" style="display: none;">
+			<div class="px=3 py=3 border">6 вопрос: Ползут 3 черепахи.
+1-я черепаха говорит: за мной ползут две черепахи.
+2-я черепаха говорит: за мной ползёт одна черепаха и передо мной ползёт одна черепаха.
+А 3-я черепаха: передо мной ползут две черепахи и за мной ползёт одна черепаха.
+Как такое может быть?</div>
+			<div class="px=3 py=3 border otvet16">Идут кругом</div>
+			<div class="px=3 py=3 border otvet17">Аномалия</div>
+			<div class="px=3 py=3 border otvet18">3-ья черепаха слепая и склирозник</div>
+		</div>
+
+
+		<div class="vopros7" style="display: none;">
+			<div class="px=3 py=3 border">7 вопрос: В комнате было 12 цыплят, 3 кролика, 5 щенят, 2 кошки, 1 петух и 2 курицы.
+Сюда зашёл хозяин с собакой.
+Сколько в комнате стало ног?</div>
+			<div class="px=3 py=3 border otvet19">2</div>
+			<div class="px=3 py=3 border otvet20">62</div>
+			<div class="px=3 py=3 border otvet21">64</div>
+		</div>
+	</div>
+
+		<div class="vopros8" style="display: none;">
+			<div class="px=3 py=3 border">8 вопрос: Какое колесо не крутится при правом развороте?</div>
+			<div class="px=3 py=3 border otvet22">Запасное</div>
+			<div class="px=3 py=3 border otvet23">Обратное</div>
+			<div class="px=3 py=3 border otvet24">АНОМАЛИЯ!!!</div>
+		</div>
+	</div>
+	
+<script type="text/javascript">
+	document.querySelector(".otvet1").onclick =function(){
+		alert("верно");
+		document.querySelector(".vopros2").style.display = "block";
+		document.querySelector(".vopros1").style.display = "none";
+	}
+	document.querySelector(".otvet2").onclick =function(){
+		alert("неверно")
+	}
+	document.querySelector(".otvet3").onclick =function(){
+		alert("неверно")
+	}
+
+
+
+	document.querySelector(".otvet4").onclick =function(){
+		alert("неверно");
+		
+	}
+	document.querySelector(".otvet5").onclick =function(){
+		alert("верно")
+		document.querySelector(".vopros3").style.display = "block";
+		document.querySelector(".vopros2").style.display = "none";
+	}
+	document.querySelector(".otvet6").onclick =function(){
+		alert("неверно")
+	}
+
+
+	document.querySelector(".otvet7").onclick =function(){
+		alert("верно");
+		document.querySelector(".vopros4").style.display = "block";
+		document.querySelector(".vopros3").style.display = "none";
+		
+	}
+	document.querySelector(".otvet8").onclick =function(){
+		alert("неверно")
+	}
+	document.querySelector(".otvet9").onclick =function(){
+		alert("неверно")
+	}
+
+
+
+	document.querySelector(".otvet10").onclick =function(){
+		alert("неверно");
+	}
+	document.querySelector(".otvet11").onclick =function(){
+		alert("неверно")
+	}
+	document.querySelector(".otvet12").onclick =function(){
+		alert("верно")
+		document.querySelector(".vopros5").style.display = "block";
+		document.querySelector(".vopros4").style.display = "none";
+	}
+
+
+
+	document.querySelector(".otvet13").onclick =function(){
+		alert("неверно");
+	}
+	document.querySelector(".otvet14").onclick =function(){
+		alert("верно")
+		document.querySelector(".vopros6").style.display = "block";
+		document.querySelector(".vopros5").style.display = "none";
+	}
+	document.querySelector(".otvet15").onclick =function(){
+		alert("неверно")
+		
+	}
+
+
+
+	document.querySelector(".otvet16").onclick =function(){
+		alert("верно");		
+		document.querySelector(".vopros7").style.display = "block";
+		document.querySelector(".vopros6").style.display = "none";
+	}
+	document.querySelector(".otvet17").onclick =function(){
+		alert("неверно")
+
+	}
+	document.querySelector(".otvet18").onclick =function(){
+		alert("неверно")
+		
+	}
+
+	document.querySelector(".otvet19").onclick =function(){
+		alert("верно");		
+		document.querySelector(".vopros7").style.display = "block";
+		document.querySelector(".vopros6").style.display = "none";
+	}
+	document.querySelector(".otvet20").onclick =function(){
+		alert("неверно")
+
+	}
+	document.querySelector(".otvet21").onclick =function(){
+		alert("неверно")
+		
+	}
+
+
+
+	document.querySelector(".otvet22").onclick =function(){
+		alert("верно");		
+		document.querySelector(".vopros8").style.display = "block";
+		document.querySelector(".vopros7").style.display = "none";
+	}
+	document.querySelector(".otvet23").onclick =function(){
+		alert("неверно")
+
+	}
+	document.querySelector(".otvet24").onclick =function(){
+		alert("неверно")
+		
+	}
+
+
+
+
+</script>
+</body>
+</html>
